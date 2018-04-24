@@ -88,12 +88,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lakshya/CLionProjects/CMS/cmake-build-debug/conference.txt">
-			<Option target="CMS"/>
-		</Unit>
-		<Unit filename="/home/lakshya/CLionProjects/CMS/cmake-build-debug/user.txt">
-			<Option target="CMS"/>
-		</Unit>
 		<Unit filename="/home/lakshya/CLionProjects/CMS/code/Auth/User.cpp">
 			<Option target="CMS"/>
 		</Unit>
@@ -137,6 +131,12 @@
 			<Option target="CMS"/>
 		</Unit>
 		<Unit filename="/home/lakshya/CLionProjects/CMS/code/main.cpp">
+			<Option target="CMS"/>
+		</Unit>
+		<Unit filename="/home/lakshya/CLionProjects/CMS/data/conference.txt">
+			<Option target="CMS"/>
+		</Unit>
+		<Unit filename="/home/lakshya/CLionProjects/CMS/data/user.txt">
 			<Option target="CMS"/>
 		</Unit>
 		<Unit filename="/home/lakshya/CLionProjects/CMS/CMakeLists.txt">
