@@ -11,7 +11,7 @@ Init* Init::_instance = nullptr;
 void Init::start() {
     File::read_conference_list();
     File::read_user_list();
-    Menu* menu = Menu::getInstance();
+    Menu* menu = Menu::get_instance();
     do {
         menu->display();
     } while (!menu->exitcode());

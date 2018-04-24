@@ -69,7 +69,7 @@ void Menu::display() {
     _view_choices = _current_view->display();
 }
 
-Menu *Menu::getInstance() {
+Menu *Menu::get_instance() {
     if(instance == nullptr){
         instance = new Menu;
         return instance;

@@ -79,7 +79,4 @@ public:
 };
 
 
-extern Conference *conference;
-
-
 #endif //CMS_CONFERENCE_H

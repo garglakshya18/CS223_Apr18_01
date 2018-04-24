@@ -18,7 +18,7 @@ private:
 public:
     Menu();
 
-    static Menu* getInstance();
+    static Menu* get_instance();
 
     bool exitcode();
 
