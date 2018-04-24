@@ -226,8 +226,20 @@ VIEW_CHOICES RegisterView::display() {
     cout << "Enter Pincode: ";
     cin_int(pincode, 6, "pincode");
     auto dor = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
-    User user(firstName, lastName, username, password, email, contact, std::ctime(&dor), address,
-              city, state, country, pincode, gender[0]);
+    User user;
+    user.set_first_name(firstName);
+    user.set_last_name(lastName);
+    user.set_username(username);
+    user.set_password(password);
+    user.set_email(email);
+    user.set_contact(contact);
+    user.set_date_of_registration(ctime(&dor));
+    user.set_address(address);
+    user.set_city(city);
+    user.set_state(state);
+    user.set_country(country);
+    user.set_pincode(pincode);
+    user.set_gender(gender[0]);
     user.save();
     cout << "You are successfully registered!" << endl;
     cout << User::all().size() << endl;

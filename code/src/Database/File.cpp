@@ -108,6 +108,7 @@ void File::read_user_list() {
                 user_file_name.append(".txt");
                 ifstream user_file(user_file_name);
                 User user;
+                user.set_username(read);
                 int count = 0;
                 while (getline(user_file, read)) {
                     if (read.empty()) {
@@ -117,7 +118,7 @@ void File::read_user_list() {
                         switch (count++) {
                             case 0: {
                                 if (read == "1") {
-                                    user.create_superuser();
+                                    user.create_superuser(user.get_username());
                                 }
                                 break;
                             }

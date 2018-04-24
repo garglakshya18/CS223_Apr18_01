@@ -33,14 +33,6 @@ class User {
 public:
     User() = default;
 
-    //Parametrised constructor
-    //_first_name, _last_name, _username, _password, _email, _contact, _date_of_registration, _address, _city, _state, _country, _pincode, _gender
-    User(string, string, string, string, string, string, string, string, string, string, string, string, char);
-
-    //Parametrised constructor
-    //_username, _password
-    User(string, string);
-
     static map<string, User>& all();
 
     string get_username();
@@ -51,25 +43,15 @@ public:
 
     bool check_password(string);        //password
 
-    bool is_payment_done(string);       //conference name
-
     bool is_superuser();
 
-    void change_password(string);       //password
-
     void save();
-
-    void remove(string);                //user
 
     void show_user_details();
 
     void create_superuser(string);      //username
 
     void remove_superuser(string);      //username
-
-    void create_superuser();
-
-    void remove_superuser();
 
     void set_first_name(const string &_first_name);
 
