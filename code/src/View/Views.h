@@ -73,24 +73,6 @@ public:
     ~ConferenceDetailView() override = default;
 };
 
-class ConferenceEditView : public Views {
-public:
-    ConferenceEditView() = default;
-
-    VIEW_CHOICES display() override;
-
-    ~ConferenceEditView() override = default;
-};
-
-class ConferenceCreateView : public Views {
-public:
-    ConferenceCreateView() = default;
-
-    VIEW_CHOICES display() override;
-
-    ~ConferenceCreateView() override = default;
-};
-
 class UserDashboardView : public Views {
 public:
     UserDashboardView() = default;
@@ -118,15 +100,6 @@ public:
     ~ProfileView() override = default;
 };
 
-class ProfileUpdateView : public Views {
-public:
-    ProfileUpdateView() = default;
-
-    VIEW_CHOICES display() override;
-
-    ~ProfileUpdateView() override = default;
-};
-
 class PaymentView : public Views {
 public:
     PaymentView() = default;
@@ -143,15 +116,6 @@ public:
     VIEW_CHOICES display() override;
 
     ~RegisterDetailView() override = default;
-};
-
-class RegisterDetailEditView : public Views {
-public:
-    RegisterDetailEditView() = default;
-
-    VIEW_CHOICES display() override;
-
-    ~RegisterDetailEditView() override = default;
 };
 
 #endif //CMS_VIEWS_H
