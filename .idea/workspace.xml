@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16e1ab52-ee86-4d1e-9784-029ca27961c9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="16e1ab52-ee86-4d1e-9784-029ca27961c9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <caret line="19" column="22" lean-forward="true" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -606,11 +604,25 @@
       <option name="project" value="LOCAL" />
       <updated>1524592614042</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Readme.md updated.">
+      <created>1524593601992</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1524593601992</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Readme.md updated.">
+      <created>1524593661894</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1524593661894</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214902000" />
+    <option name="totallyTimeSpent" value="215630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -683,7 +695,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated DetaiView and RegistrationDetailView!" />
     <MESSAGE value="Updated Header Files!" />
     <MESSAGE value="Updated User Class!" />
     <MESSAGE value="Updated Conference Class!" />
@@ -708,7 +719,8 @@
     <MESSAGE value="Views class refactored." />
     <MESSAGE value="First release." />
     <MESSAGE value="Test report updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test report updated." />
+    <MESSAGE value="Readme.md updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme.md updated." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,7 +1051,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <caret line="19" column="22" lean-forward="true" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
