@@ -9,7 +9,7 @@
 #include "../Auth/User.h"
 
 void File::read_conference_list() {
-    ifstream input("conference.txt");
+    ifstream input("../data/conference.txt");
     string read;
     if (input.is_open()) {
         while (getline(input, read)) {
@@ -17,7 +17,7 @@ void File::read_conference_list() {
                 cout << "Gotcha!" << "\n";
             }
             else {
-                string con_file_name = "Conference/";
+                string con_file_name = "../data/Conference/";
                 con_file_name.append(read);
                 con_file_name.append(".txt");
                 ifstream con_file(con_file_name);
@@ -55,7 +55,7 @@ void File::read_conference_list() {
                     }
                 }
                 con_file.close();
-                string registration_list_name = "Conference/Registration_List/";
+                string registration_list_name = "../data/Conference/Registration_List/";
                 registration_list_name.append(conference.get_c_name());
                 registration_list_name.append(".txt");
                 ifstream registration_list(registration_list_name);
@@ -64,7 +64,7 @@ void File::read_conference_list() {
                             conference.get_c_name())->second.get_registration_list().push_back(read);
                 }
                 registration_list.close();
-                string payment_done_list_name = "Conference/Payment_Done_List/";
+                string payment_done_list_name = "../data/Conference/Payment_Done_List/";
                 payment_done_list_name.append(conference.get_c_name());
                 payment_done_list_name.append(".txt");
                 ifstream payment_done_list(payment_done_list_name);
@@ -73,7 +73,7 @@ void File::read_conference_list() {
                             conference.get_c_name())->second.get_payment_done_list().push_back(read);
                 }
                 payment_done_list.close();
-                string payment_file_name = "Conference/Payment/";
+                string payment_file_name = "../data/Conference/Payment/";
                 payment_file_name.append(conference.get_c_name());
                 payment_file_name.append(".txt");
                 ifstream payment_file(payment_file_name);
@@ -94,7 +94,7 @@ void File::read_conference_list() {
 }
 
 void File::read_user_list() {
-    ifstream input("user.txt");
+    ifstream input("../data/user.txt");
     string read;
     if (input.is_open()) {
         while (getline(input, read)) {
@@ -103,7 +103,7 @@ void File::read_user_list() {
             }
             else {
                 /*cout << read << '\n';*/
-                string user_file_name = "User/";
+                string user_file_name = "../data/User/";
                 user_file_name.append(read);
                 user_file_name.append(".txt");
                 ifstream user_file(user_file_name);
@@ -181,7 +181,7 @@ void File::read_user_list() {
                 }
                 user.save();
                 user_file.close();
-                string user_reg_con_list_name = "User/lists/";
+                string user_reg_con_list_name = "../data/User/lists/";
                 user_reg_con_list_name.append(user.get_username());
                 user_reg_con_list_name.append(".txt");
                 ifstream user_reg_con_list(user_reg_con_list_name);
@@ -202,11 +202,11 @@ void File::read_user_list() {
 }
 
 void File::write_conference_list() {
-    ofstream output("conference.txt");
+    ofstream output("../data/conference.txt");
     if (output.is_open()) {
         for (auto &i : Conference::conference_list()) {
             output << i.second.get_c_name() << "\n";
-            string con_file_name = "Conference/";
+            string con_file_name = "../data/Conference/";
             con_file_name.append(i.second.get_c_name());
             con_file_name.append(".txt");
             ofstream con_file(con_file_name);
@@ -216,7 +216,7 @@ void File::write_conference_list() {
             con_file << i.second.get_c_venue() << "\n";
             con_file << i.second.get_seats_available() << "\n";
             con_file.close();
-            string registration_list_name = "Conference/Registration_List/";
+            string registration_list_name = "../data/Conference/Registration_List/";
             registration_list_name.append(i.second.get_c_name());
             registration_list_name.append(".txt");
             ofstream registration_list(registration_list_name);
@@ -224,7 +224,7 @@ void File::write_conference_list() {
                 registration_list << it << "\n";
             }
             registration_list.close();
-            string payment_done_list_name = "Conference/Payment_Done_List/";
+            string payment_done_list_name = "../data/Conference/Payment_Done_List/";
             payment_done_list_name.append(i.second.get_c_name());
             payment_done_list_name.append(".txt");
             ofstream payment_done_list(payment_done_list_name);
@@ -232,7 +232,7 @@ void File::write_conference_list() {
                 payment_done_list << it << "\n";
             }
             payment_done_list.close();
-            string payment_file_name = "Conference/Payment/";
+            string payment_file_name = "../data/Conference/Payment/";
             payment_file_name.append(i.second.get_c_name());
             payment_file_name.append(".txt");
             ofstream payment_file(payment_file_name);
@@ -249,11 +249,11 @@ void File::write_conference_list() {
 }
 
 void File::write_user_list() {
-    ofstream output("user.txt");
+    ofstream output("../data/user.txt");
     if (output.is_open()) {
         for (auto &i : User::all()) {
             output << i.second.get_username() << "\n";
-            string user_file_name = "User/";
+            string user_file_name = "../data/User/";
             user_file_name.append(i.second.get_username());
             /*string user_file_name = i.second.get_username();*/
             user_file_name.append(".txt");
@@ -273,7 +273,7 @@ void File::write_user_list() {
             user_file << i.second.get_pincode() << "\n";
             user_file << i.second.get_gender() << "\n";
             user_file.close();
-            string user_reg_con_list_name = "User/lists/";
+            string user_reg_con_list_name = "../data/User/lists/";
             user_reg_con_list_name.append(i.second.get_username());
             user_reg_con_list_name.append(".txt");
             ofstream user_reg_con_list(user_reg_con_list_name);
