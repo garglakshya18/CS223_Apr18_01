@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/lakshya/CLionProjects/CMS/cmake-build-debug/User -I/home/lakshya/CLionProjects/CMS/cmake-build-debug/Conference 
 

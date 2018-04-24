@@ -48,10 +48,10 @@ RM = /home/lakshya/Software/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lakshya/Mohabia/CMS
+CMAKE_SOURCE_DIR = /home/lakshya/CLionProjects/CMS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lakshya/Mohabia/CMS/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lakshya/CLionProjects/CMS/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lakshya/Mohabia/CMS/cmake-build-debug/CMakeFiles /home/lakshya/Mohabia/CMS/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lakshya/CLionProjects/CMS/cmake-build-debug/CMakeFiles /home/lakshya/CLionProjects/CMS/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lakshya/Mohabia/CMS/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lakshya/CLionProjects/CMS/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,221 +123,221 @@ CMS/fast:
 	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/build
 .PHONY : CMS/fast
 
-Src/Auth/User.o: Src/Auth/User.cpp.o
+code/Auth/User.o: code/Auth/User.cpp.o
 
-.PHONY : Src/Auth/User.o
-
-# target to build an object file
-Src/Auth/User.cpp.o:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Auth/User.cpp.o
-.PHONY : Src/Auth/User.cpp.o
-
-Src/Auth/User.i: Src/Auth/User.cpp.i
-
-.PHONY : Src/Auth/User.i
-
-# target to preprocess a source file
-Src/Auth/User.cpp.i:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Auth/User.cpp.i
-.PHONY : Src/Auth/User.cpp.i
-
-Src/Auth/User.s: Src/Auth/User.cpp.s
-
-.PHONY : Src/Auth/User.s
-
-# target to generate assembly for a file
-Src/Auth/User.cpp.s:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Auth/User.cpp.s
-.PHONY : Src/Auth/User.cpp.s
-
-Src/Conference_Details/Conference.o: Src/Conference_Details/Conference.cpp.o
-
-.PHONY : Src/Conference_Details/Conference.o
+.PHONY : code/Auth/User.o
 
 # target to build an object file
-Src/Conference_Details/Conference.cpp.o:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Conference_Details/Conference.cpp.o
-.PHONY : Src/Conference_Details/Conference.cpp.o
+code/Auth/User.cpp.o:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Auth/User.cpp.o
+.PHONY : code/Auth/User.cpp.o
 
-Src/Conference_Details/Conference.i: Src/Conference_Details/Conference.cpp.i
+code/Auth/User.i: code/Auth/User.cpp.i
 
-.PHONY : Src/Conference_Details/Conference.i
+.PHONY : code/Auth/User.i
 
 # target to preprocess a source file
-Src/Conference_Details/Conference.cpp.i:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Conference_Details/Conference.cpp.i
-.PHONY : Src/Conference_Details/Conference.cpp.i
+code/Auth/User.cpp.i:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Auth/User.cpp.i
+.PHONY : code/Auth/User.cpp.i
 
-Src/Conference_Details/Conference.s: Src/Conference_Details/Conference.cpp.s
+code/Auth/User.s: code/Auth/User.cpp.s
 
-.PHONY : Src/Conference_Details/Conference.s
+.PHONY : code/Auth/User.s
 
 # target to generate assembly for a file
-Src/Conference_Details/Conference.cpp.s:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Conference_Details/Conference.cpp.s
-.PHONY : Src/Conference_Details/Conference.cpp.s
+code/Auth/User.cpp.s:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Auth/User.cpp.s
+.PHONY : code/Auth/User.cpp.s
 
-Src/Database/File.o: Src/Database/File.cpp.o
+code/Conference_Details/Conference.o: code/Conference_Details/Conference.cpp.o
 
-.PHONY : Src/Database/File.o
+.PHONY : code/Conference_Details/Conference.o
 
 # target to build an object file
-Src/Database/File.cpp.o:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Database/File.cpp.o
-.PHONY : Src/Database/File.cpp.o
+code/Conference_Details/Conference.cpp.o:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Conference_Details/Conference.cpp.o
+.PHONY : code/Conference_Details/Conference.cpp.o
 
-Src/Database/File.i: Src/Database/File.cpp.i
+code/Conference_Details/Conference.i: code/Conference_Details/Conference.cpp.i
 
-.PHONY : Src/Database/File.i
+.PHONY : code/Conference_Details/Conference.i
 
 # target to preprocess a source file
-Src/Database/File.cpp.i:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Database/File.cpp.i
-.PHONY : Src/Database/File.cpp.i
+code/Conference_Details/Conference.cpp.i:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Conference_Details/Conference.cpp.i
+.PHONY : code/Conference_Details/Conference.cpp.i
 
-Src/Database/File.s: Src/Database/File.cpp.s
+code/Conference_Details/Conference.s: code/Conference_Details/Conference.cpp.s
 
-.PHONY : Src/Database/File.s
+.PHONY : code/Conference_Details/Conference.s
 
 # target to generate assembly for a file
-Src/Database/File.cpp.s:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Database/File.cpp.s
-.PHONY : Src/Database/File.cpp.s
+code/Conference_Details/Conference.cpp.s:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Conference_Details/Conference.cpp.s
+.PHONY : code/Conference_Details/Conference.cpp.s
 
-Src/Init.o: Src/Init.cpp.o
+code/Database/File.o: code/Database/File.cpp.o
 
-.PHONY : Src/Init.o
+.PHONY : code/Database/File.o
 
 # target to build an object file
-Src/Init.cpp.o:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Init.cpp.o
-.PHONY : Src/Init.cpp.o
+code/Database/File.cpp.o:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Database/File.cpp.o
+.PHONY : code/Database/File.cpp.o
 
-Src/Init.i: Src/Init.cpp.i
+code/Database/File.i: code/Database/File.cpp.i
 
-.PHONY : Src/Init.i
+.PHONY : code/Database/File.i
 
 # target to preprocess a source file
-Src/Init.cpp.i:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Init.cpp.i
-.PHONY : Src/Init.cpp.i
+code/Database/File.cpp.i:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Database/File.cpp.i
+.PHONY : code/Database/File.cpp.i
 
-Src/Init.s: Src/Init.cpp.s
+code/Database/File.s: code/Database/File.cpp.s
 
-.PHONY : Src/Init.s
+.PHONY : code/Database/File.s
 
 # target to generate assembly for a file
-Src/Init.cpp.s:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Init.cpp.s
-.PHONY : Src/Init.cpp.s
+code/Database/File.cpp.s:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Database/File.cpp.s
+.PHONY : code/Database/File.cpp.s
 
-Src/Registration/Payment.o: Src/Registration/Payment.cpp.o
+code/Init.o: code/Init.cpp.o
 
-.PHONY : Src/Registration/Payment.o
+.PHONY : code/Init.o
 
 # target to build an object file
-Src/Registration/Payment.cpp.o:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Registration/Payment.cpp.o
-.PHONY : Src/Registration/Payment.cpp.o
+code/Init.cpp.o:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Init.cpp.o
+.PHONY : code/Init.cpp.o
 
-Src/Registration/Payment.i: Src/Registration/Payment.cpp.i
+code/Init.i: code/Init.cpp.i
 
-.PHONY : Src/Registration/Payment.i
+.PHONY : code/Init.i
 
 # target to preprocess a source file
-Src/Registration/Payment.cpp.i:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Registration/Payment.cpp.i
-.PHONY : Src/Registration/Payment.cpp.i
+code/Init.cpp.i:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Init.cpp.i
+.PHONY : code/Init.cpp.i
 
-Src/Registration/Payment.s: Src/Registration/Payment.cpp.s
+code/Init.s: code/Init.cpp.s
 
-.PHONY : Src/Registration/Payment.s
+.PHONY : code/Init.s
 
 # target to generate assembly for a file
-Src/Registration/Payment.cpp.s:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/Registration/Payment.cpp.s
-.PHONY : Src/Registration/Payment.cpp.s
+code/Init.cpp.s:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Init.cpp.s
+.PHONY : code/Init.cpp.s
 
-Src/View/Menu.o: Src/View/Menu.cpp.o
+code/Registration/Payment.o: code/Registration/Payment.cpp.o
 
-.PHONY : Src/View/Menu.o
+.PHONY : code/Registration/Payment.o
 
 # target to build an object file
-Src/View/Menu.cpp.o:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/View/Menu.cpp.o
-.PHONY : Src/View/Menu.cpp.o
+code/Registration/Payment.cpp.o:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Registration/Payment.cpp.o
+.PHONY : code/Registration/Payment.cpp.o
 
-Src/View/Menu.i: Src/View/Menu.cpp.i
+code/Registration/Payment.i: code/Registration/Payment.cpp.i
 
-.PHONY : Src/View/Menu.i
+.PHONY : code/Registration/Payment.i
 
 # target to preprocess a source file
-Src/View/Menu.cpp.i:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/View/Menu.cpp.i
-.PHONY : Src/View/Menu.cpp.i
+code/Registration/Payment.cpp.i:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Registration/Payment.cpp.i
+.PHONY : code/Registration/Payment.cpp.i
 
-Src/View/Menu.s: Src/View/Menu.cpp.s
+code/Registration/Payment.s: code/Registration/Payment.cpp.s
 
-.PHONY : Src/View/Menu.s
+.PHONY : code/Registration/Payment.s
 
 # target to generate assembly for a file
-Src/View/Menu.cpp.s:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/View/Menu.cpp.s
-.PHONY : Src/View/Menu.cpp.s
+code/Registration/Payment.cpp.s:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/Registration/Payment.cpp.s
+.PHONY : code/Registration/Payment.cpp.s
 
-Src/View/Views.o: Src/View/Views.cpp.o
+code/View/Menu.o: code/View/Menu.cpp.o
 
-.PHONY : Src/View/Views.o
+.PHONY : code/View/Menu.o
 
 # target to build an object file
-Src/View/Views.cpp.o:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/View/Views.cpp.o
-.PHONY : Src/View/Views.cpp.o
+code/View/Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/View/Menu.cpp.o
+.PHONY : code/View/Menu.cpp.o
 
-Src/View/Views.i: Src/View/Views.cpp.i
+code/View/Menu.i: code/View/Menu.cpp.i
 
-.PHONY : Src/View/Views.i
+.PHONY : code/View/Menu.i
 
 # target to preprocess a source file
-Src/View/Views.cpp.i:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/View/Views.cpp.i
-.PHONY : Src/View/Views.cpp.i
+code/View/Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/View/Menu.cpp.i
+.PHONY : code/View/Menu.cpp.i
 
-Src/View/Views.s: Src/View/Views.cpp.s
+code/View/Menu.s: code/View/Menu.cpp.s
 
-.PHONY : Src/View/Views.s
+.PHONY : code/View/Menu.s
 
 # target to generate assembly for a file
-Src/View/Views.cpp.s:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/View/Views.cpp.s
-.PHONY : Src/View/Views.cpp.s
+code/View/Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/View/Menu.cpp.s
+.PHONY : code/View/Menu.cpp.s
 
-Src/main.o: Src/main.cpp.o
+code/View/Views.o: code/View/Views.cpp.o
 
-.PHONY : Src/main.o
+.PHONY : code/View/Views.o
 
 # target to build an object file
-Src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/main.cpp.o
-.PHONY : Src/main.cpp.o
+code/View/Views.cpp.o:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/View/Views.cpp.o
+.PHONY : code/View/Views.cpp.o
 
-Src/main.i: Src/main.cpp.i
+code/View/Views.i: code/View/Views.cpp.i
 
-.PHONY : Src/main.i
+.PHONY : code/View/Views.i
 
 # target to preprocess a source file
-Src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/main.cpp.i
-.PHONY : Src/main.cpp.i
+code/View/Views.cpp.i:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/View/Views.cpp.i
+.PHONY : code/View/Views.cpp.i
 
-Src/main.s: Src/main.cpp.s
+code/View/Views.s: code/View/Views.cpp.s
 
-.PHONY : Src/main.s
+.PHONY : code/View/Views.s
 
 # target to generate assembly for a file
-Src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/Src/main.cpp.s
-.PHONY : Src/main.cpp.s
+code/View/Views.cpp.s:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/View/Views.cpp.s
+.PHONY : code/View/Views.cpp.s
+
+code/main.o: code/main.cpp.o
+
+.PHONY : code/main.o
+
+# target to build an object file
+code/main.cpp.o:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/main.cpp.o
+.PHONY : code/main.cpp.o
+
+code/main.i: code/main.cpp.i
+
+.PHONY : code/main.i
+
+# target to preprocess a source file
+code/main.cpp.i:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/main.cpp.i
+.PHONY : code/main.cpp.i
+
+code/main.s: code/main.cpp.s
+
+.PHONY : code/main.s
+
+# target to generate assembly for a file
+code/main.cpp.s:
+	$(MAKE) -f CMakeFiles/CMS.dir/build.make CMakeFiles/CMS.dir/code/main.cpp.s
+.PHONY : code/main.cpp.s
 
 # Help Target
 help:
@@ -348,30 +348,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CMS"
-	@echo "... Src/Auth/User.o"
-	@echo "... Src/Auth/User.i"
-	@echo "... Src/Auth/User.s"
-	@echo "... Src/Conference_Details/Conference.o"
-	@echo "... Src/Conference_Details/Conference.i"
-	@echo "... Src/Conference_Details/Conference.s"
-	@echo "... Src/Database/File.o"
-	@echo "... Src/Database/File.i"
-	@echo "... Src/Database/File.s"
-	@echo "... Src/Init.o"
-	@echo "... Src/Init.i"
-	@echo "... Src/Init.s"
-	@echo "... Src/Registration/Payment.o"
-	@echo "... Src/Registration/Payment.i"
-	@echo "... Src/Registration/Payment.s"
-	@echo "... Src/View/Menu.o"
-	@echo "... Src/View/Menu.i"
-	@echo "... Src/View/Menu.s"
-	@echo "... Src/View/Views.o"
-	@echo "... Src/View/Views.i"
-	@echo "... Src/View/Views.s"
-	@echo "... Src/main.o"
-	@echo "... Src/main.i"
-	@echo "... Src/main.s"
+	@echo "... code/Auth/User.o"
+	@echo "... code/Auth/User.i"
+	@echo "... code/Auth/User.s"
+	@echo "... code/Conference_Details/Conference.o"
+	@echo "... code/Conference_Details/Conference.i"
+	@echo "... code/Conference_Details/Conference.s"
+	@echo "... code/Database/File.o"
+	@echo "... code/Database/File.i"
+	@echo "... code/Database/File.s"
+	@echo "... code/Init.o"
+	@echo "... code/Init.i"
+	@echo "... code/Init.s"
+	@echo "... code/Registration/Payment.o"
+	@echo "... code/Registration/Payment.i"
+	@echo "... code/Registration/Payment.s"
+	@echo "... code/View/Menu.o"
+	@echo "... code/View/Menu.i"
+	@echo "... code/View/Menu.s"
+	@echo "... code/View/Views.o"
+	@echo "... code/View/Views.i"
+	@echo "... code/View/Views.s"
+	@echo "... code/main.o"
+	@echo "... code/main.i"
+	@echo "... code/main.s"
 .PHONY : help
 
 
