@@ -18,13 +18,3 @@ vector<pair<string, int>> &Payment::get_registration_type_list() {
     return _registration_type_list;
 }
 
-void Payment::update_registration_type(string type, int amount) {
-    auto it = find_if(_registration_type_list.begin(), _registration_type_list.end(),
-                      [&](const pair<string, int> &element) { return element.first == type; });
-    if (it != _registration_type_list.end()) {
-        it->second = amount;
-    }
-    else {
-        _registration_type_list.emplace_back(type, amount);
-    }
-}
