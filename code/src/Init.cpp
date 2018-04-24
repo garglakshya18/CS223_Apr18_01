@@ -6,20 +6,7 @@
 #include "Init.h"
 #include "Database/File.h"
 
-Init* Init::instance = nullptr;
-
-Init::Init() {
-    // Dummy Data
-    /*User user("Lakshya", "Garg", "dummy", "dummy", "garg.2@iitj.ac.in", "8283875162", "13022018", "316, B1",
-              "Jodhpur", "Rajasthan", "India", "342037", 'M');
-    user.create_superuser();
-    user.save();
-    conference = new Conference("IEEE", "2 oct", "Jaipur", "12:12 PM");
-    conference->update_seat_available(20);
-    Conference::conference_list().find("IEEE")->second.payment_details().add_registration_type("Normal", 69);
-    Conference::conference_list().find("IEEE")->second.payment_details().add_registration_type("VIP", 6969);*/
-    //cout << user.is_superuser();
-}
+Init* Init::_instance = nullptr;
 
 void Init::start() {
     File::read_conference_list();
@@ -32,11 +19,11 @@ void Init::start() {
     File::write_user_list();
 }
 
-Init* Init::getInstance() {
-    if(instance == nullptr){
-        instance = new Init;
-        return instance;
+Init* Init::get_instance() {
+    if(_instance == nullptr){
+        _instance = new Init;
+        return _instance;
     }
-    return instance;
+    return _instance;
 }
 

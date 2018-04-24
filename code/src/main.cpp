@@ -1,6 +1,6 @@
 #include "Init.h"
 
 int main() {
-    (Init::getInstance())->start();
+    (Init::get_instance())->start();
     return 0;
 }

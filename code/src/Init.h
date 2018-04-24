@@ -12,12 +12,12 @@
 
 
 class Init {
-    static Init* instance;
+    static Init* _instance;
 public:
 
-    static Init *getInstance();
+    static Init *get_instance();
 
-    Init();
+    Init() = default;
 
     void start();
 };
