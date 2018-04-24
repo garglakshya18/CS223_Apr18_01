@@ -102,7 +102,6 @@ void File::read_user_list() {
                 cout << "Gotcha!" << "\n";
             }
             else {
-                /*cout << read << '\n';*/
                 string user_file_name = "../../data/User/";
                 user_file_name.append(read);
                 user_file_name.append(".txt");
@@ -118,7 +117,7 @@ void File::read_user_list() {
                         switch (count++) {
                             case 0: {
                                 if (read == "1") {
-                                    user.create_superuser(user.get_username());
+                                    user.create_superuser();
                                 }
                                 break;
                             }
@@ -177,7 +176,6 @@ void File::read_user_list() {
                             default:
                                 break;
                         }
-                        /*cout << read << "\n";*/
                     }
                 }
                 user.save();
@@ -188,7 +186,6 @@ void File::read_user_list() {
                 ifstream user_reg_con_list(user_reg_con_list_name);
                 string read_param_1, read_param_2;
                 while (getline(user_reg_con_list, read_param_1) && getline(user_reg_con_list, read_param_2)) {
-                    /*cout << read_param_1 << endl << read_param_2 << endl;*/
                     User::all().find(user.get_username())->second.update_registered_conference_list(
                             read_param_1, read_param_2);
                 }
@@ -284,8 +281,6 @@ void File::write_user_list() {
             }
             user_reg_con_list.close();
         }
-        /*cout << "File opened\n";*/
-        /*output << "This is a line\n";*/
         output.close();
     }
     else {

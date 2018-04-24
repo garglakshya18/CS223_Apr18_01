@@ -75,20 +75,6 @@
             }   \
         }
 
-#define cin_no_int_no_space(var, name) {                                        \
-            getline(cin,var);                                                   \
-            while((var).find(" ") != std::string::npos || ((var).find_first_not_of( "0123456789" ) == string::npos)){   \
-                if(((var).find_first_not_of( "0123456789" ) == string::npos)){  \
-                    cout << "Enter a valid " << (name) << ": ";                   \
-                    getline(cin,var);                                           \
-                }                                                               \
-                else{                                                           \
-                    cout << "Spaces are not allowed!\nPlease enter again: ";    \
-                    getline(cin, var);                                          \
-                }                                                               \
-            }                                                                   \
-        }
-
 
 VIEW_CHOICES Views::display() {
 }
@@ -142,9 +128,7 @@ VIEW_CHOICES LoginView::display() {
     auto user = User::all().find(username);
     if (user != User::all().end()) {
         if (user->second.check_password(password)) {
-            //cout << user->second.get_full_name();
             current_user = &(user->second);
-            //cout << current_user->is_superuser();
             if (current_user->is_superuser()) {
                 return VIEW_CHOICES(ADMIN_DASHBOARD);
             }
@@ -178,13 +162,10 @@ VIEW_CHOICES RegisterView::display() {
         cout << error.print_error() << endl;
         goto username_exists;
     }
-    /*cout << username << endl;*/
     cout << "Enter First name: ";
     cin_no_int(firstName, "first name");
-    /*cout << firstName << endl;*/
     cout << "Enter Last name: ";
     cin_no_int(lastName, "last name");
-    /*cout << lastName << endl;*/
     wrong_gender:
     cout << "Enter Gender[M/F/O]: ";
     cin_space(gender);
@@ -300,7 +281,7 @@ VIEW_CHOICES UserDashboardView::display() {
                     }
                 }
                 if (Conference::conference_list().find(c_name)->second.get_seats_available() == 0) {
-                    cout << "The registrations are closed for this confernce\n";
+                    cout << "The registrations are closed for this conference\n";
                     system_pause
                     if (current_user->is_superuser()) {
                         return ADMIN_DASHBOARD;

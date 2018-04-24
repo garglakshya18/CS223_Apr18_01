@@ -5,8 +5,6 @@
 #include "Conference.h"
 
 
-Conference *conference = new Conference;
-
 map<string, Conference> Conference::_conference_list = {};
 
 Conference::Conference(string c_name, string c_date, string c_venue, string c_time) {

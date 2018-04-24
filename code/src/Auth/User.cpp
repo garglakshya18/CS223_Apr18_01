@@ -70,7 +70,7 @@ void User::create_superuser(string username) {
         UserError("This User is already a superuser!");
     }
     else {
-        User::all().find(username)->second._superuser_status = true;
+        User::all().find(username)->second.create_superuser();
     }
 }
 
@@ -178,7 +178,6 @@ void User::registered_conference_list_payment() {
                 system_pause
                 return;
             }
-            /*cout << "hi\n";*/
             cout << "The amount to be paid is Rs. " << Conference::conference_list().find(
                     _registered_conference_list[choice].first)->second.payment_details().get_payment_amount(
                     _registered_conference_list[choice].second);
@@ -248,6 +247,10 @@ const string &User::get_pincode() const {
 
 char User::get_gender() const {
     return _gender;
+}
+
+void User::create_superuser() {
+    _superuser_status = true;
 }
 
 UserError::UserError(const string &err) {

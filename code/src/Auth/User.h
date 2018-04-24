@@ -51,6 +51,8 @@ public:
 
     void create_superuser(string);      //username
 
+    void create_superuser();
+
     void remove_superuser(string);      //username
 
     void set_first_name(const string &_first_name);

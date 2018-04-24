@@ -4,7 +4,7 @@
 
 #include "Menu.h"
 
-Menu* Menu::instance = nullptr;
+Menu* Menu::_instance = nullptr;
 
 Menu::Menu() {
     EXIT_CODE = false;
@@ -70,9 +70,9 @@ void Menu::display() {
 }
 
 Menu *Menu::get_instance() {
-    if(instance == nullptr){
-        instance = new Menu;
-        return instance;
+    if(_instance == nullptr){
+        _instance = new Menu;
+        return _instance;
     }
-    return instance;
+    return _instance;
 }
