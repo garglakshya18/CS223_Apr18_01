@@ -54,15 +54,11 @@ public:
 
     void make_payment(string);                  //username
 
-    void show_conference_details();
-
     void show_final_attendee_list();
 
     void show_registration_list();
 
     void show_pending_payment_user_list();
-
-    void show_registration_type_list(string);   //r_type
 
     void update_registration_list(const string &);
 

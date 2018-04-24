@@ -62,13 +62,6 @@ int Conference::get_seats_available() {
     return _seats_available;
 }
 
-void Conference::show_conference_details() {
-    cout << "Name: " << _c_name;
-    cout << "\nDate: " << _c_date;
-    cout << "\nTime: " << _c_time;
-    cout << "\nSeats Available" << _seats_available;
-}
-
 void Conference::update_seat_available(int seats) {
     _conference_list.erase(_c_name);
     _seats_available = seats;
@@ -106,12 +99,6 @@ void Conference::show_pending_payment_user_list() {
     for (const auto &i : _registration_list) {
         if (find(_payment_done_list.begin(), _payment_done_list.end(), i) == _payment_done_list.end())
             cout << i << endl;
-    }
-}
-
-void Conference::show_registration_type_list(string r_type) {
-    for (const auto &i : _payment_details.get_registration_type_list()) {
-        cout << i.first << endl;
     }
 }
 
