@@ -1,6 +1,6 @@
 # Conference Management System
 
-An object oriented C++ project, created for university course for managing students and their data.
+An object oriented C++ project, created for university course for managing conference registrations and their data.
 
 ## Instructions to compile
 Either execute the bundled executable `CMS` file in directory `code/cmake-build-debug` or follow the following steps:
