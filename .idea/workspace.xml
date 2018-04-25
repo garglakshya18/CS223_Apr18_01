@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16e1ab52-ee86-4d1e-9784-029ca27961c9" name="Default" comment="" />
+    <list default="true" id="16e1ab52-ee86-4d1e-9784-029ca27961c9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +41,8 @@
       <file leaf-file-name="Conference.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/Conference Details/Conference.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="1422">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -48,7 +50,7 @@
       <file leaf-file-name="Menu.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/View/Menu.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="216">
               <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
@@ -57,8 +59,8 @@
       <file leaf-file-name="User.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/Auth/User.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+            <state relative-caret-position="1926">
+              <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -67,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="19" column="22" lean-forward="true" selection-end-line="19" selection-end-column="23" />
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -84,7 +86,7 @@
       <file leaf-file-name="Views.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/View/Views.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="1260">
               <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
             </state>
           </provider>
@@ -93,7 +95,7 @@
       <file leaf-file-name="Views.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/View/Views.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="2700">
               <caret line="150" selection-start-line="150" selection-end-line="150" />
               <folding>
                 <element signature="e#0#2#0" />
@@ -114,7 +116,7 @@
       <file leaf-file-name="Menu.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/View/Menu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="108">
               <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
@@ -393,6 +395,7 @@
       <workItem from="1523690316384" duration="2950000" />
       <workItem from="1523790612477" duration="3784000" />
       <workItem from="1524572645783" duration="269000" />
+      <workItem from="1524630014269" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="User model modified to single class">
       <created>1518193328445</created>
@@ -618,48 +621,42 @@
       <option name="project" value="LOCAL" />
       <updated>1524593661894</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Presentation updated.">
+      <created>1524594627133</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1524594627133</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215630000" />
+    <option name="totallyTimeSpent" value="216186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13802083" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.92596567" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32939914" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13802083" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32939914" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13802083" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32939914" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.32939914" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
       <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.92596567" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32939914" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +692,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated Header Files!" />
     <MESSAGE value="Updated User Class!" />
     <MESSAGE value="Updated Conference Class!" />
     <MESSAGE value="Updated Payment Class!" />
@@ -720,7 +716,8 @@
     <MESSAGE value="First release." />
     <MESSAGE value="Test report updated." />
     <MESSAGE value="Readme.md updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme.md updated." />
+    <MESSAGE value="Presentation updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Presentation updated." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -956,9 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#51#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,22 +960,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#90#112#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/Conference Details/Conference.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="1422">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/View/Menu.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="216">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
@@ -995,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/View/Views.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="2700">
           <caret line="150" selection-start-line="150" selection-end-line="150" />
           <folding>
             <element signature="e#0#2#0" />
@@ -1005,7 +996,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/View/Views.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="1260">
           <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
         </state>
       </provider>
@@ -1029,15 +1020,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/View/Menu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="108">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/Auth/User.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+        <state relative-caret-position="1926">
+          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1051,7 +1042,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="22" lean-forward="true" selection-end-line="19" selection-end-column="23" />
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
